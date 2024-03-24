@@ -1,0 +1,22 @@
+{
+  "name": "上海在线服务网站查询",
+  "short_name": "站点查",
+  "description": "快速查询上海市的在线服务平台，一键跳转，支持pwa，免下载免安装，快速便捷，不占空间！",
+  "icons": [
+    {
+      "src": "https://vue.misaka-fans.space/128.ico",
+      "sizes": "128x128",
+      "type": "ico"
+    },
+    {
+      "src": "https://vue.misaka-fans.space/512.ico",
+      "sizes": "512x512",
+      "type": "ico"
+    }
+  ],
+  "background_color": "#000000",
+  "theme_color": "#c49582",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait"
+}

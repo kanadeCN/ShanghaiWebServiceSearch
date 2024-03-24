@@ -1,0 +1,46 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  text-align: center;
+  font-size: large;
+}
+.container {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+#valueInput {
+  width: 80%;
+  font-size: 16px; /* 字体大小 */
+  padding: 12px 20px 12px 40px; /* 设置内边距 */
+  border: 1px solid #ddd; /* 添加灰色边框 */
+  margin-bottom: 12px; /* 添加顶部的外边距 */
+}
+ 
+#searchUL {
+  /* 移除默认的列表样式 */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+ 
+#searchUL li a {
+  border: 1px solid #ddd; /* 链接添加边框 */
+  margin-top: -1px; /* 防止边框重复 */
+  background-color: #f6f6f6; /* 设置灰色背景 */
+  padding: 14px; /* 添加内边距 */
+  text-decoration: none; /* 移除默认的下划线 */
+  font-size: 18px; /* 设置字体大小 */
+  color: #3399ff; /* 设置文本为黑色 */
+  display: block; /* 以块形式填充到列表 */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#searchUL li a:hover {
+  text-decoration: underline;
+  background-color: #e0dfe3;
+}
+.tag {/*提供搜索相关的标签的样式，不在列表内显示*/
+  display: none;
+}
